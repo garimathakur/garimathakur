@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: larger;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.toplogo {
+  margin-top: 2%;
+  margin-bottom: 10%;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.logo {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+a.logo__link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  position: fixed;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .logo__link__word--garima {
+    position: absolute;
+    -webkit-transform: translateX(-108%) translateY(1.25em) rotate(-90deg);
+    transform: translateX(-108%) translateY(1.25em) rotate(-90deg);
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+  }
+  .logo__link__word--thakur {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* logo styling ends */
+
+.container {
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  color: white;
+  background-image: url(images/background.png);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center; /* Horizontally center the images */
+  align-items: center; /* Vertically center the images */
+}
+
+.horizontal-images {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-images img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 100%;
+}
+
+.vertical-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-images img {
+  width: 48%;
+  margin-bottom: 20px;
+}
